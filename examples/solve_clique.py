@@ -59,9 +59,9 @@ solver = local_connection.get_solver(solver_name)
 # or, if you're using a remote solver, uncomment this block and put your
 # authentication information here
 # from dwave_sapi2.core import remote
-# sapi_url = 'https://dw2x.dwavesys.com/sapi'
+# sapi_url = 'https://cloud.dwavesys.com/sapi'
 # sapi_token = 'ENTER SAPI TOKEN'
-# solver_name = 'DW2X'
+# solver_name = 'DW_2000Q_5'
 # connection = remote.RemoteConnection(sapi_url, sapi_token)
 # solver = connection.get_solver(solver_name)
 
